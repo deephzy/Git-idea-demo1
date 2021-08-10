@@ -13,36 +13,46 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:Git-space" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:ori" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:hot-fix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c54da7-5885-4bbd-b743-e6070297ccf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git-space/git-demo/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Git-space/git-demo/hello.txt" afterDir="false" />
+    <list default="true" id="a5c54da7-5885-4bbd-b743-e6070297ccf2" name="Default Changelist" comment="hotff1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzy/GitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzy/GitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hot-fix" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="F:\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -59,10 +69,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="GitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -78,19 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
         <item itemvalue="Application.GitTest" />
       </list>
     </recent_temporary>
@@ -103,8 +125,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628534995058</updated>
-      <workItem from="1628534996692" duration="394000" />
+      <workItem from="1628534996692" duration="4437000" />
+      <workItem from="1628593662558" duration="635000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1628535575682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628535575683</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second">
+      <created>1628536300886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628536300886</updated>
+    </task>
+    <task id="LOCAL-00003" summary="master">
+      <created>1628537784967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628537784967</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hotff">
+      <created>1628538768592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628538768592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,11 +167,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hot-fix" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="second" />
+    <MESSAGE value="master" />
+    <MESSAGE value="hotff" />
+    <MESSAGE value="hotff1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotff1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1628535391803">
@@ -130,9 +203,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628535246767" />
-    <state x="270" y="56" key="SettingsEditor" timestamp="1628535093028">
+    <state x="621" y="309" key="Github.ShareDialog" timestamp="1628594062112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628535093028" />
+    <state x="621" y="309" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1628594062112" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1628544304355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628544304355" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1628544304355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628544304355" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1628544304355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628544304355" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1628544304355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628544304355" />
+    <state x="162" y="70" width="1236" height="690" key="MergeDialog" timestamp="1628544302536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="162" y="70" width="1236" height="690" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1628544302536" />
+    <state x="403" y="172" key="MultipleFileMergeDialog" timestamp="1628544303881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="172" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1628544303881" />
+    <state x="556" y="113" key="RollbackChangesDialog" timestamp="1628537024346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="556" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628537024346" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1628593994016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628593994016" />
+    <state x="529" y="124" key="git4idea.branch.GitSmartOperationDialog" timestamp="1628538746131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="124" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1628538746131" />
   </component>
 </project>
